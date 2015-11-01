@@ -1,10 +1,4 @@
-<html>
-    <head>
-        <title>Add Movie</title>
-    </head>
-
-    <body>
-        <h1>New Movie</h1>
+<@layout title="New Movie">
 
         <form action="/movies/add" method="POST">
             <dl>
@@ -20,5 +14,4 @@
                 <dt><input type="submit" value="Create" /></dt>
             </dl>
         </form>
-    </body>
-</html>
+</@layout>

@@ -1,10 +1,4 @@
-<html>
-    <head>
-        <title>Movies</title>
-    </head>
-
-    <body>
-        <h1>Movies</h1>
+<@layout title="Movies">
 
         <p><a href="/movies/add">Add Movie</a></p>
 
@@ -13,5 +7,4 @@
                 <li><a href="/movies/detail/${movie.id}">${movie.title}</a></li>
             </#list>
         </ul>
-    </body>
-</html>
+</@layout>
